@@ -23,3 +23,5 @@ DevOps 入門課 **ch3〈Unit Test〉+ ch4〈GitHub Actions CI〉** 的極簡範
 
 ## Test
 1, 2, 3, 4, 5
+
+56789
