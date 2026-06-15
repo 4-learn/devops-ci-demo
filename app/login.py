@@ -19,7 +19,7 @@ class LoginRequest(BaseModel):
 def login(body: LoginRequest):
     # email 非空檢查：空白就回 400，而不是讓後面爆 500
     if not body.email or not body.email.strip():
-        return JSONResponse(status_code=500, content={"error": "email is required"})
+        return JSONResponse(status_code=400, content={"error": "email is required"})
 
     # demo 用：不做真正驗證，回個成功訊息就好
     return {"message": f"welcome, {body.email}"}
