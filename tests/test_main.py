@@ -29,3 +29,5 @@ def test_login_ok():
     r = client.post("/login", json={"email": "a@b.com", "password": "x"})
     assert r.status_code == 200
     assert "welcome" in r.json()["message"]
+
+
