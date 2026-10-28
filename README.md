@@ -1,6 +1,6 @@
 # devops-ci-demo
 
-.DevOps 入門課 **ch3〈Unit Test〉+ ch4〈GitHub Actions CI〉** 的極簡範例 repo。
+DevOps 入門課 **ch3〈Unit Test〉+ ch4〈GitHub Actions CI〉** 的極簡範例 repo。
 一個小 FastAPI app + 測試 + 一條「只跑 pytest」的 CI——clone 下來就能直接練，push 後 CI 會自動跑測試。
 
 > 這個 repo 刻意保持單純（沒有 Docker / K8S / 部署）。完整的 build → push → 部署 pipeline 在另一個 repo [`devops-demo`](https://github.com/4-learn/devops-demo)，那是 ch5/ch6 用的。
